@@ -1,0 +1,13 @@
+@import url("//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("//cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css");
+
+@import url("qtags-style.css");
+@import url("../style.css");
+.mceContentBody {
+/*
+----幅が大きいため不採用
+  width: 835px !important;
+  border-right: 1px solid #111;
+*/
+}

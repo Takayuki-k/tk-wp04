@@ -1,0 +1,89 @@
+#qt_content_qt-red {
+  color:#e50202;
+}
+#qt_content_qt-bold-red {
+  font-weight:bold;
+  color:#e50202;
+}
+#qt_content_qt-red-under {
+  border-bottom: 2px solid #e50202;
+}
+#qt_content_qt-marker {
+  background-color:#ff9;
+}
+#qt_content_qt-marker-under {
+  background: linear-gradient(transparent 60%, #ff6 60%);
+}
+#qt_content_qt-strike {
+  text-decoration: line-through;
+}
+#qt_content_qt-ref {
+  color: #fff;
+  background-color: #fc7a22;
+}
+#qt_content_qt-keyboard-key {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(center top , #eee, #f9f9f9, #eee);
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px #ddd;
+  font-family: inherit;
+  font-size: 0.85em;
+  padding: 1px 3px;
+}
+#qt_content_qt-muted-txt {
+  color: #777;
+}
+#qt_content_qt-primary-txt {
+  color: #337ab7;
+}
+#qt_content_qt-success-txt {
+  color: #5cb85c;
+}
+#qt_content_qt-info-txt {
+  color: #5bc0de;
+}
+#qt_content_qt-warning-txt {
+  color: #f0ad4e;
+}
+#qt_content_qt-danger-txt {
+  color: #d9534f;
+}
+#qt_content_qt-primary-bg {
+  color: #fff;
+  background-color: #337ab7;
+}
+#qt_content_qt-success-bg {
+  background-color: #5cb85c;
+}
+#qt_content_qt-info-bg {
+  background-color: #5bc0de;
+}
+#qt_content_qt-warning-bg {
+  background-color: #f0ad4e;
+}
+#qt_content_qt-danger-bg {
+  background-color: #d9534f;
+}
+#qt_content_qt-black-bg {
+  background-color: #222;
+  color: #eee;
+}
+#qt_content_qt-center {
+  text-align: center;
+}
+#qt_content_qt-right {
+  text-align: right;
+}
+#qt_content_qt-left {
+  text-align: left;
+}
+#qt_content_qt-max {}
+#qt_content_qt-bold {
+  font-size: 120%;
+  font-weight: bold;
+}
+#qt_content_qt-small {
+  font-size: 75%;
+  font-weight: lighter;
+}

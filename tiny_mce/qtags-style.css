@@ -1,0 +1,147 @@
+/*拡張クラスを追加するスタイルシート*/
+.ref{
+  color: #fff;
+  background-color: #fc7a22;
+  padding: 1px 5px 0;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+/*赤色*/
+.red{
+  color:#e50202;
+}
+
+/*太字で赤色*/
+.bold-red{
+  font-weight:bold;
+  color:#e50202;
+}
+
+/*赤のアンダーライン*/
+.red-under{
+  border-bottom: 2px solid #e50202;
+}
+
+/*マーカーの黄色のような色*/
+.marker{
+  background-color:#ff9;
+}
+
+/*下半分のマーカー色（km）*/
+.marker-under{
+  background: linear-gradient(transparent 60%, #ff6 60%);
+}
+
+/*打ち消し線*/
+.strike{
+  text-decoration: line-through;
+}
+
+/*キーボードキーのスタイル*/
+.keyboard-key {
+  background-color: #f9f9f9;
+  background-image: -moz-linear-gradient(center top , #eee, #f9f9f9, #eee);
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  box-shadow: 1px 2px 2px #ddd;
+  font-family: inherit;
+  font-size: 0.85em;
+  padding: 1px 3px;
+  padding: 1px 3px;
+}
+
+.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-black {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+.text-muted { color: #777;}
+.text-primary { color: #337ab7;}
+  .text-primary:hover,
+  .text-primary:focus {
+    color: #286090;
+  }
+.text-success { color: #5cb85c;}
+  .text-success:hover,
+  .text-success:focus {
+    color: #2b542c;
+  }
+.text-info { color: #5bc0de;}
+  .text-info:hover,
+  .text-info:focus {
+    color: #245269;
+  }
+.text-warning { color: #f0ad4e;}
+  .text-warning:hover,
+  .text-warning:focus {
+    color: #66512c;
+  }
+.text-danger { color: #d9534f;}
+  .text-danger:hover,
+  .text-danger:focus {
+    color: #843534;
+  }
+.bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+  .bg-primary:hover,
+  .bg-primary:focus {
+    background-color: #286090;
+  }
+.bg-success { background-color: #5cb85c;}
+  .bg-success:hover,
+  .bg-success:focus {
+    background-color: #c1e2b3;
+  }
+.bg-info { background-color: #5bc0de;}
+  .bg-info:hover,
+  .bg-info:focus {
+    background-color: #afd9ee;
+  }
+.bg-warning { background-color: #f0ad4e;}
+  .bg-warning:hover,
+  .bg-warning:focus {
+    background-color: #f7ecb5;
+  }
+.bg-danger { background-color: #d9534f;}
+  .bg-danger:hover,
+  .bg-danger:focus {
+    background-color: #e4b9b9;
+  }
+.bg-black {
+  background-color: #222;
+  color: #eee;
+}
+  .bg-black:hover,
+  .bg-black:focus {
+    background-color: #444;
+    color: #ddd;
+  }
+/* __________layout__________ */
+.text-center { text-align: center;}
+.text-right { text-align: right;}
+.text-left { text-align: left;}
+.small {
+  font-size: 75%;
+  font-weight: lighter;
+}
+.bold {
+  font-size: 120%;
+  font-weight: bold;
+}
+.max {
+  display: block;
+  width: 100%;
+}
+.list-inline {
+  padding-left: 0;
+  margin: 3px 0 2px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.list-inline > li > span { padding: 0 3px;}
